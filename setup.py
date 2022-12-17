@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0'
+VERSION = '1.0.0'
 DESCRIPTION = 'Pretty print for Python'
 LONG_DESCRIPTION = 'Python package for having a prettier console output/input.'
 
