@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.1.1'
+VERSION = '1.1.2'
 DESCRIPTION = 'Pretty print for Python'
 LONG_DESCRIPTION = 'Python package for having a prettier console output/input. You can view the docs here: https://github.com/timof121/ConsolePlus/wiki'
 
 # Setting up
 setup(
-    # the name must match the folder name 'verysimplemodule'
     name="consoleplus",
+    url="https://github.com/timof121/ConsolePlus",
     version=VERSION,
     license="General Public License v3.0",
     author="Evie",
