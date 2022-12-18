@@ -1,8 +1,8 @@
 from setuptools import setup, find_packages
 
-VERSION = '1.0.1'
+VERSION = '1.1.1'
 DESCRIPTION = 'Pretty print for Python'
-LONG_DESCRIPTION = 'Python package for having a prettier console output/input.'
+LONG_DESCRIPTION = 'Python package for having a prettier console output/input. You can view the docs here: https://github.com/timof121/ConsolePlus/wiki'
 
 # Setting up
 setup(

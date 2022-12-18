@@ -15,4 +15,8 @@ class Output:
 
     def write_centered(self, text, time=0.01):
         text = text.center(os.get_terminal_size().columns)
-        self.write(text, time)
+        if len(text.splitlines()) > 1:
+            for line in text.splitlines():
+                self.write_centered(line)
+        else:
+            self.write(text, time)
