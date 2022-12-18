@@ -1,2 +1,1 @@
-from .out import Output as out
-Output = out()
+from .out import Output

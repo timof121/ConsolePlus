@@ -13,3 +13,6 @@ class Output:
     def clear(self):
         os.system('cls' if os.name == 'nt' else 'clear')
 
+    def write_centered(self, text, time=0.01):
+        text = text.center(os.get_terminal_size().columns)
+        self.write(text, time)
