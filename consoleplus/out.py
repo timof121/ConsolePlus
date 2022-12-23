@@ -18,6 +18,6 @@ class Output:
         text = text.center(os.get_terminal_size().columns)
         if len(text.splitlines()) > 1:
             for line in text.splitlines():
-                self.write_centered(line)
+                self.write_centered(line, time)
         else:
             self.write(text, time)
