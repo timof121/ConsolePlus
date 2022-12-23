@@ -7,7 +7,7 @@ class Output:
         for char in text:
             stdout.write(char)
             stdout.flush()
-            if not time == 0:
+            if time > 0:
                 sleep(time)
         print()
 
